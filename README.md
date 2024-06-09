@@ -48,3 +48,5 @@ PASSWORD = 'psw'
 ```sh
 poetry run uvicorn app.main:app --reload
 ```
+
+По url 127.0.0.1:8000/docs будут все эндпоинты
