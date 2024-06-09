@@ -4,7 +4,7 @@
 
 ## Требования
 
-- Python 3.10+
+- Python 3.12.2
 - [Poetry](https://python-poetry.org/docs/#installation)
 
 ## Установка и запуск
