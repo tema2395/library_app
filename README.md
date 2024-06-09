@@ -16,12 +16,19 @@
 ```sh
 git clone <URL репозитория>
 cd library_app
+```
 
 ### Шаг 2: Установка зависимостей
 
+Установите зависимости и активируйте виртуальное окружение
+
+```sh
 poetry install
 poetry shell
+```
 
 ### Шаг 3: Запуск приложения
 
+```sh
 poetry run uvicorn app.main:app --reload
+```
