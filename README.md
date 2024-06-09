@@ -12,10 +12,11 @@
 
 ### Шаг 1: Клон репозитория
 
+
 Сначала клонируйте репозиторий и перейдите в директорию проекта:
 
 ```sh
-git clone <URL репозитория>
+git clone https://github.com/tema2395/library_app
 cd library_app
 ```
 
