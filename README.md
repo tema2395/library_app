@@ -6,6 +6,7 @@
 
 - Python 3.12.2
 - [Poetry](https://python-poetry.org/docs/#installation)
+- PostgreSQL 16.2
 
 ## Установка и запуск
 
@@ -27,7 +28,21 @@ poetry install
 poetry shell
 ```
 
-### Шаг 3: Запуск приложения
+### Шаг 3: Создание env.py
+
+В корневой директории проекта создать файл env.py со следующей структурой:
+```
+HOST = 'localhost'
+PORT = 5432
+USER = 'user_name'
+PASSWORD = 'psw'
+```
+ - `HOST` - Хост бд
+ - `PORT` - Порт бд
+ - `USER` - Ваш юзернейм бд
+ - `PASSWORD` - Ваш пароль от бд
+
+### Шаг 4: Запуск приложения
 
 ```sh
 poetry run uvicorn app.main:app --reload
